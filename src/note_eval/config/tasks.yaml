@@ -1,0 +1,25 @@
+# src/my_project/config/tasks.yaml
+
+note_summarization_task:
+  description: >
+    Read the provided note file and summarize its content into concise key points.
+  expected_output: >
+    A summary of the note in 5 bullet points.
+  agent: note_summarizer
+
+note_complementation_task:
+  description: >
+    Compare the summarized note with online sources to validate and enrich its content.
+    Use the latest available data for accuracy.
+  expected_output: >
+    A detailed comparison of the note's summary with information from online sources.
+  agent: note_complementer
+
+learning_advice_task:
+  description: >
+    Analyze the summary and online comparison to suggest the next learning topic or step.
+  expected_output: >
+    1. The exact summary of the inital note from previous steps.
+    2. The exact comment output of the online comparison made.
+    3. A suggestion for the next learning topic, along with a short explanation.
+  agent: learning_advisor
