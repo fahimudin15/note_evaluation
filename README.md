@@ -1,6 +1,10 @@
-# NoteEval Crew
+# Note Evaluation 
 
-Welcome to the NoteEval Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the NoteEvaluation Crew project. This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+
+## What is NoteEval?
+
+NoteEval is a powerful tool designed to evaluate and analyze notes, documents, and other textual data using a team of AI agents. Each agent in the NoteEval Crew has specific roles and capabilities, allowing them to work together to process, summarize, and generate insights from the provided data. This collaborative approach ensures comprehensive and accurate evaluations, making Note Evaluation an invaluable asset for research, content creation, and data analysis.
 
 ## Installation
 
@@ -20,7 +24,19 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Add your `OPENAI_API_KEY` and other required variables into the `.env` file**
+
+The `.env` file should contain the following environment variables:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+OTHER_API_KEY=your_other_api_key_here
+MODEL_NAME=your_model_name_here
+```
+
+- `OPENAI_API_KEY`: This key is essential for enabling the AI agents to access OpenAI's services and perform their tasks effectively.
+- `OTHER_API_KEY`: Replace this with any other API keys required for your specific agents or tasks.
+- `MODEL_NAME`: The name of the model your agents will use for processing tasks.
 
 - Modify `src/note_eval/config/agents.yaml` to define your agents
 - Modify `src/note_eval/config/tasks.yaml` to define your tasks
