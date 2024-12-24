@@ -19,7 +19,7 @@ learning_advice_task:
   description: >
     Analyze the summary and online comparison to suggest the next learning topic or step.
   expected_output: >
-    1. The exact summary of the inital note from previous steps.
+    1. The exact summary of the inital note from previous steps .
     2. The exact comment output of the online comparison made.
     3. Suggestion for the next learning topic, along with a short explanation.
   agent: learning_advisor
