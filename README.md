@@ -1,6 +1,6 @@
 # Note Evaluation
 
-Welcome to the NoteEval Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set-up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the NoteEval Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system easily, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -25,12 +25,12 @@ crewai install
 
 - Modify `src/note_eval/config/agents.yaml` to define your agents
 - Modify `src/note_eval/config/tasks.yaml` to define your tasks
-- Modify `src/note_eval/crew.py` to add your own logic, tools and specific args
+- Modify `src/note_eval/crew.py` to add your own logic, tools, and specific arguments
 - Modify `src/note_eval/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+To start your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
 $ crewai run
@@ -49,6 +49,7 @@ The NoteEval Crew is composed of multiple AI agents, each with unique roles, goa
 For support, questions, or feedback regarding the NoteEval Crew or crewAI:
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
+- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
