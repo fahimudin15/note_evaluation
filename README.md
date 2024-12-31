@@ -1,10 +1,6 @@
-# Note Evaluation 
+# Note Evaluation
 
-Welcome to the NoteEvaluation Crew project. This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
-
-## What is NoteEval?
-
-NoteEval is a powerful tool designed to evaluate and analyze notes, documents, and other textual data using a team of AI agents. Each agent in the NoteEval Crew has specific roles and capabilities, allowing them to work together to process, summarize, and generate insights from the provided data. This collaborative approach ensures comprehensive and accurate evaluations, making Note Evaluation an invaluable asset for research, content creation, and data analysis.
+Welcome to the NoteEval Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system easily, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -22,6 +18,7 @@ Next, navigate to your project directory and install the dependencies:
 ```bash
 crewai install
 ```
+
 ### Customizing
 
 **Add your `OPENAI_API_KEY` and other required variables into the `.env` file**
@@ -40,28 +37,28 @@ MODEL_NAME=your_model_name_here
 
 - Modify `src/note_eval/config/agents.yaml` to define your agents
 - Modify `src/note_eval/config/tasks.yaml` to define your tasks
-- Modify `src/note_eval/crew.py` to add your own logic, tools and specific args
+- Modify `src/note_eval/crew.py` to add your own logic, tools, and specific arguments
 - Modify `src/note_eval/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+To start your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
 $ crewai run
 ```
 
-This command initializes the note_eval Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This command initializes the NoteEval Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+This example, unmodified, will create `note_summary.md`, `note_comparison.md`, and `note_next_steps.md` files with the output of the tasks in the root folder.
 
 ## Understanding Your Crew
 
-The note_eval Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The NoteEval Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
 ## Support
 
-For support, questions, or feedback regarding the NoteEval Crew or crewAI.
+For support, questions, or feedback regarding the NoteEval Crew or crewAI:
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
 - [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
