@@ -21,7 +21,19 @@ crewai install
 
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Add your `OPENAI_API_KEY` and other required variables into the `.env` file**
+
+The `.env` file should contain the following environment variables:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+OTHER_API_KEY=your_other_api_key_here
+MODEL_NAME=your_model_name_here
+```
+
+- `OPENAI_API_KEY`: This key is essential for enabling the AI agents to access OpenAI's services and perform their tasks effectively.
+- `OTHER_API_KEY`: Replace this with any other API keys required for your specific agents or tasks.
+- `MODEL_NAME`: The name of the model your agents will use for processing tasks.
 
 - Modify `src/note_eval/config/agents.yaml` to define your agents
 - Modify `src/note_eval/config/tasks.yaml` to define your tasks
